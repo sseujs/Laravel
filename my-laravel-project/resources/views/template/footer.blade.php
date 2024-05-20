@@ -20,8 +20,8 @@
     <div class="col-lg-2 col-6 footer-links">
       <h4>Useful Links</h4>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About us</a></li>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/home#about">About us</a></li>
         <li><a href="#">Utilities</a></li>
         <li><a href="#">Terms of service</a></li>
         <li><a href="#">Privacy policy</a></li>
