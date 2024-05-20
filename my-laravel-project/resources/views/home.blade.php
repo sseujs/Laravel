@@ -6,14 +6,15 @@
       <div class="row gy-5" data-aos="fade-in">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
           <h2>Welcome to <span>KIG</span></h2>
-          <p style="text-align: justify;">Welcome to my website, where knowledge awaits your discovery. Embark on a journey of enlightenment as you
+          <p style="text-align: justify;">Welcome to KIG, where knowledge awaits your discovery. Embark on a journey of enlightenment as you
             explore the vast realms of information and insights that this platform has to offer. From fascinating facts
             to thought-provoking ideas, this space is designed to be a gateway for expanding your understanding of the
             world. Embrace the opportunity to gain valuable knowledge and broaden your perspectives. The more you
             explore, the more you empower yourself to navigate the intricacies of our dynamic and ever-changing world.
             Happy exploring!</p>
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="/blog" class="btn-get-started">BLOG</a>
+            <a href="/blog" class="btn-get-started">Fun Blog</a>
+            <a href="/learn" class="btn-get-started">Insight Hub</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2">
@@ -36,7 +37,7 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-gem"></i></div>
-              <h4 class="title"><a href="" class="stretched-link">Loan Report Comming Soon</a></h4>
+              <h4 class="title"><a href="/loanReport" class="stretched-link">Loan Report</a></h4>
             </div>
           </div><!--End Icon Box -->
 

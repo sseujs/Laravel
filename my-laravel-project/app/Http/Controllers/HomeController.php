@@ -18,4 +18,8 @@ class HomeController extends Controller
     {
         return view('learn');
     }
+    public function loan()
+    {
+        return view('utilities.loan');
+    }
 }
