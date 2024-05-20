@@ -18,7 +18,7 @@
   <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="/home" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1>KIG<span>.</span></h1>
@@ -29,7 +29,8 @@
           <li><a href="/home#about">About</a></li>
           <li><a href="/home#services">Utilities</a></li>
           <li><a href="/blog">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i
+          <li><a href="/learn">Learn</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i
                 class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -47,7 +48,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->

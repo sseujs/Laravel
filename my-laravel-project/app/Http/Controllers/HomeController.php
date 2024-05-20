@@ -14,4 +14,8 @@ class HomeController extends Controller
     {
         return view('blog');
     }
+    public function learn()
+    {
+        return view('learn');
+    }
 }
