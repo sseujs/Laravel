@@ -37,7 +37,28 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-gem"></i></div>
-              <h4 class="title"><a href="/loanReport" class="stretched-link">Loan Report</a></h4>
+              <h4 class="title"><a href="#" onclick="openLoan()" class="stretched-link">Loan Report</a></h4>
+              <div id="loan" class="loan">
+    <div class="loan-content">
+        <span class="close" onclick="closeLoan()">&times;</span>
+        <h2>Upload Excel File</h2>
+        <p>Your Excel File must come from Loan Transaction Report, Please follow the guideline mantioned below for accurate results</p>
+        <p><ul>
+          <li>Check on Show Data Only</li>
+          <li>Check on Product Code</li>
+          <li>Report type = Loan Outstanding</li>
+          <li>Version must be C</li>
+          <li>Is Account level Report = Yes</li>
+          <li>Include Accr. Interest = Yes</li>
+        </ul></p>
+        <form action="{{ route('upload.excel') }}" method="post" enctype="multipart/form-data">
+            @csrf
+            <input type="file" name="excel_file" accept=".xlsx, .xls">
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</div>
+
             </div>
           </div><!--End Icon Box -->
 
